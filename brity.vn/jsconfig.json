@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {     
+        "@redux/*" : ["redux/*"],   
+        "@redux_state/*": ["redux/state/*"],
+        "@constants/*": ["constants/*"],
+        "@global_redux/*": ["redux/reducer/global/*"], 
+        "@products_redux/*": ["redux/reducer/products/*"], 
+        "@carts_redux/*": ["redux/reducer/carts/*"], 
+        "@articles_redux/*" : ["redux/reducer/articles/*"],        
+        "@components/*": ["components/*"],  
+        "@layout/*": ["components/layout/*"],
+        "@header/*": ["components/header/*"],
+        "@home_layout/*": ["components/home_layout/*"],
+        "@home_widgets/*": ["components/home_layout/home_widgets/*"],
+        "@templates/*": ["components/templates/*"],
+        "@icon_fonts/*": ["assets/icon-fonts/*"],
+        "@js_dir/*": ["assets/js/*"],
+        "@css_dir/*": ["assets/css/*"],
+        "@js_utils/*": ["assets/js/utils/*"],
+        "@images_dir/*": ["assets/images/*"],
+        "@lib/*": ["lib/*"],
+        "@sample/*": ["sample/*"],          
+      }
+    }
+}

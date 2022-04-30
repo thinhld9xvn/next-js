@@ -1,0 +1,10 @@
+{
+    "apps": [
+      {
+        "name": "yodezeen",
+        "script": "npm",
+        "args": "start"
+      }
+    ]
+  }
+  

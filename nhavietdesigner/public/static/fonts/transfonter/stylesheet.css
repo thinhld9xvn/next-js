@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Arial';
+    src: url('/static/fonts/transfonter/ArialMT.woff2') format('woff2'), url('/static/fonts/transfonter/ArialMT.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('/static/fonts/transfonter/Arial-BoldMT.woff2') format('woff2'), url('/static/fonts/transfonter/Arial-BoldMT.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('/static/fonts/transfonter/Arial-Black.woff2') format('woff2'), url('/static/fonts/transfonter/Arial-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('/static/fonts/transfonter/Arial-ItalicMT.woff2') format('woff2'), url('/static/fonts/transfonter/Arial-ItalicMT.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SFU Futura';
+    src: url('/static/fonts/transfonter/SFUFuturaBook.woff2') format('woff2'), url('/static/fonts/transfonter/SFUFuturaBook.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('/static/fonts/transfonter/HelveticaNeue-Light.woff2') format('woff2'), url('/static/fonts/transfonter/HelveticaNeue-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}

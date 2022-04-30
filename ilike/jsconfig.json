@@ -1,0 +1,42 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {     
+        "@redux/*" : ["redux/*"],   
+        "@redux_state/*": ["redux/state/*"],
+        "@constants/*": ["constants/*"],
+        "@global_redux/*": ["redux/reducer/global/*"], 
+        "@home_redux/*": ["redux/reducer/home/*"], 
+        "@articles_redux/*" : ["redux/reducer/articles/*"],  
+        "@js_dir/*": ["assets/js/*"],
+        "@css_dir/*": ["assets/css/*"],
+        "@js_utils/*": ["assets/js/utils/*"],
+        "@lib/*": ["lib/*"],
+        "@styles/*": ["styles/*"],      
+        "@components/*": ["components/*"],  
+        "@header/*": ["components/header/*"],
+        "@footer/*": ["components/footer/*"],
+        "@loading/*": ["components/loading/*"],
+        "@templates/*": ["components/templates/*"],
+        "@homepage/*": ["components/pages/home/*"],
+        "@homepage_widgets/*": ["components/pages/home/widgets/*"],
+        "@home_news_widget/*": ["components/pages/home/widgets/home-news-widget/*"],
+        "@home_featured_widget/*": ["components/pages/home/widgets/home-featured-widget/*"],
+        "@home_gl_banner_widget/*": ["components/pages/home/widgets/home-gl-banner-widget/*"],
+        "@home_life_news_widget/*": ["components/pages/home/widgets/home-life-news-widget/*"],
+        "@home_movies_news_widget/*": ["components/pages/home/widgets/home-movies-news-widget/*"],
+        "@home_sports_news_widget/*": ["components/pages/home/widgets/home-sports-news-widget/*"],
+        "@home_showbiz_news_widget/*": ["components/pages/home/widgets/home-showbiz-news-widget/*"],
+        "@home_magazine_news_widget/*": ["components/pages/home/widgets/home-magazine-news-widget/*"],
+        "@home_explore_news_widget/*": ["components/pages/home/widgets/home-explore-news-widget/*"],
+        "@categorypage/*": ["components/pages/category/*"],
+        "@postpage/*": ["components/pages/post/*"],
+        "@tagpage/*": ["components/pages/tag/*"],
+        "@searchpage/*": ["components/pages/search/*"],
+        "@loginpage/*": ["components/pages/login/*"],
+        "@registerpage/*": ["components/pages/register/*"],
+        "@emagazinepage/*": ["components/pages/emagazine/*"]
+             
+      }
+    }
+}

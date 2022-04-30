@@ -1,0 +1,346 @@
+.modal-comment {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.102);
+  z-index: 99999;
+  visibility: hidden;
+  opacity: 0; }
+  .modal-comment.active {
+    visibility: visible;
+    opacity: 1; }
+    .modal-comment.active .container__comment {
+      -webkit-transition: 0.3s ease;
+      -o-transition: 0.3s ease;
+      -moz-transition: 0.3s ease;
+      transition: 0.3s ease;
+      -webkit-transform: translateX(0);
+      -moz-transform: translateX(0);
+      -ms-transform: translateX(0);
+      transform: translateX(0); }
+  .modal-comment .container__comment {
+    -webkit-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    transition: 0.3s ease;
+    max-width: 580px;
+    width: 100%;
+    background-color: #fff;
+    padding: 3.5rem;
+    margin-left: auto;
+    height: 100vh;
+    -webkit-transform: translateX(200%);
+    -moz-transform: translateX(200%);
+    -ms-transform: translateX(200%);
+    transform: translateX(200%); }
+    .modal-comment .container__comment::-webkit-scrollbar {
+      width: 5px; }
+    .modal-comment .container__comment .module__header {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -moz-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .modal-comment .container__comment .module__header .title {
+        font-size: 3.6rem;
+        line-height: 2.4rem;
+        color: #0d0d0d;
+        font-weight: 700;
+        font-family: "Roboto";
+        margin-bottom: 0; }
+      .modal-comment .container__comment .module__header .btn__clos {
+        font-size: 2rem;
+        width: 3rem;
+        height: 3rem;
+        color: #707070; }
+    .modal-comment .container__comment .module__content {
+      font-family: "Roboto";
+      padding-top: 6.6rem; }
+      .modal-comment .container__comment .module__content .filter {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -moz-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -moz-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        border-bottom: 1px solid #e1e1e1;
+        padding-bottom: 0.8rem;
+        margin-bottom: 3.7rem; }
+        .modal-comment .container__comment .module__content .filter .filter__total {
+          margin-bottom: 0; }
+        .modal-comment .container__comment .module__content .filter select {
+          font-size: 15px;
+          line-height: 24px;
+          color: #595959;
+          font-weight: 400;
+          border: 0; }
+      .modal-comment .container__comment .module__content .comment__body  {
+        overflow-y: auto;
+        overflow-x: hidden;
+        height: auto;
+        max-height: -webkit-calc(100vh - 205px);
+        max-height: -moz-calc(100vh - 205px);
+        max-height: calc(100vh - 205px);
+        /*padding-bottom: 14rem;*/ }
+        .modal-comment .container__comment .module__content .comment__body.__fit {
+          max-height: -webkit-calc(100vh - 250px);
+          max-height: -moz-calc(100vh - 250px);
+          max-height: calc(100vh - 250px);
+        }
+        .modal-comment .container__comment .module__content .group__cm + .group__cm {
+          padding-top: 3rem;
+          margin-top: 3rem;
+          border-top: 1px solid #e1e1e1; }
+        .modal-comment .container__comment .module__content .group__cm .cm__box {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -moz-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+          -webkit-box-align: start;
+          -webkit-align-items: start;
+          -moz-box-align: start;
+          -ms-flex-align: start;
+          align-items: start; }
+          .modal-comment .container__comment .module__content .group__cm .cm__box + .cm__box {
+            margin-top: 3rem; }
+          .modal-comment .container__comment .module__content .group__cm .cm__box .cm__control {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -moz-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            margin-top: 1rem; }
+            .modal-comment .container__comment .module__content .group__cm .cm__box .cm__control .btn {
+              outline: none;
+              font-size: 14px;
+              line-height: 24px;
+              color: #5d8cc3;
+              padding: 0;
+              height: 3rem;
+              margin-right: 1.5rem; }
+          .modal-comment .container__comment .module__content .group__cm .cm__box .cm__avatar {
+            max-width: 40px;
+            height: 40px;
+            width: 100%;
+            border-right: 50%;
+            -webkit-flex-shrink: 0;
+            -ms-flex-negative: 0;
+            flex-shrink: 0;
+            overflow: hidden; }
+            .modal-comment .container__comment .module__content .group__cm .cm__box .cm__avatar img {
+              width: 100%;
+              -o-object-fit: cover;
+              object-fit: cover; }
+          .modal-comment .container__comment .module__content .group__cm .cm__box .cm__content {
+            padding-left: 3rem;
+            max-width: -webkit-calc(100% - 40px);
+            max-width: -moz-calc(100% - 40px);
+            max-width: calc(100% - 40px);
+            width: 100%;
+            -webkit-box-flex: 1;
+            -webkit-flex: 1;
+            -moz-box-flex: 1;
+            -ms-flex: 1;
+            flex: 1; }
+            .modal-comment .container__comment .module__content .group__cm .cm__box .cm__content .cm__name {
+              font-size: 1.5rem;
+              line-height: 24px;
+              color: #262626;
+              margin-bottom: 0rem; }
+            .modal-comment .container__comment .module__content .group__cm .cm__box .cm__content .cm__time {
+              display: block;
+              color: #a6a6a6;
+              font-size: 1.3rem;
+              margin-bottom: 1rem; }
+            .modal-comment .container__comment .module__content .group__cm .cm__box .cm__content .cm__desc {
+              font-size: 14px;
+              line-height: 24px;
+              color: #595959; }
+            .modal-comment .container__comment .module__content .group__cm .cm__box .cm__content .btn__reply {
+              font-size: 14px;
+              line-height: 24px;
+              color: #5d8cc3;
+              padding: 0;
+              height: 3rem; }
+            .modal-comment .container__comment .module__content .group__cm .cm__box .cm__content .cm__mess {              
+              padding-left: 1.6rem;
+              border-left: 1px solid #e1e1e1;             
+              transition: opacity .2s, max-height .1s;
+              -webkit-transition: opacity .2s, max-height .1s;
+              max-height: 0;
+              opacity: 0;
+              overflow: hidden; }
+              .modal-comment .container__comment .module__content .group__cm .cm__box .cm__content .cm__mess.__show {
+                margin-top: 4.5rem;
+                margin-bottom: 3rem;
+                opacity: 1;
+                max-height: 5000px;
+                overflow: visible;
+              }
+              .modal-comment .container__comment .module__content .group__cm .cm__box .cm__content .cm__mess .reply__box {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -moz-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-flex-wrap: wrap;
+                -ms-flex-wrap: wrap;
+                flex-wrap: wrap; }
+                .modal-comment .container__comment .module__content .group__cm .cm__box .cm__content .cm__mess .reply__box .reply__avatar {
+                  width: 3rem;
+                  height: 3rem;
+                  border-radius: 50%;
+                  overflow: hidden;
+                  -webkit-flex-shrink: 0;
+                  -ms-flex-negative: 0;
+                  flex-shrink: 0; }
+                .modal-comment .container__comment .module__content .group__cm .cm__box .cm__content .cm__mess .reply__box .reply__comment {
+                  padding-left: 1.2rem;
+                  -webkit-box-flex: 1;
+                  -webkit-flex: 1;
+                  -moz-box-flex: 1;
+                  -ms-flex: 1;
+                  flex: 1;
+                  max-width: -webkit-calc(100% - 3rem);
+                  max-width: -moz-calc(100% - 3rem);
+                  max-width: calc(100% - 3rem);
+                  width: 100%; }
+                .modal-comment .container__comment .module__content .group__cm .cm__box .cm__content .cm__mess .reply__box + .reply__box {
+                  margin-top: 3rem; }
+            .modal-comment .container__comment .module__content .cm__reply {
+              display: none;
+              padding-left: 1.6rem;
+              margin-top: 3rem; }
+              .modal-comment .container__comment .module__content .cm__reply .form__group {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -moz-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-flex-wrap: wrap;
+                -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+                -webkit-box-align: center;
+                -webkit-align-items: center;
+                -moz-box-align: center;
+                -ms-flex-align: center;
+                align-items: center; }
+                .modal-comment .container__comment .module__content .cm__reply .form__group .cm__avatar {
+                  width: 3rem;
+                  height: 3rem;
+                  overflow: hidden;
+                  border-right: 50%;
+                  -webkit-flex-shrink: 0;
+                  -ms-flex-negative: 0;
+                  flex-shrink: 0; }
+                .modal-comment .container__comment .module__content .cm__reply .form__group .from {
+                  max-width: -webkit-calc(100% - 3rem);
+                  max-width: -moz-calc(100% - 3rem);
+                  max-width: calc(100% - 3rem);
+                  width: 100%;
+                  margin-left: 1.3rem;
+                  display: -webkit-box;
+                  display: -webkit-flex;
+                  display: -moz-box;
+                  display: -ms-flexbox;
+                  display: flex;
+                  -webkit-flex-wrap: wrap;
+                  -ms-flex-wrap: wrap;
+                  flex-wrap: wrap;
+                  -webkit-box-align: center;
+                  -webkit-align-items: center;
+                  -moz-box-align: center;
+                  -ms-flex-align: center;
+                  align-items: center;
+                  -webkit-box-flex: 1;
+                  -webkit-flex: 1;
+                  -moz-box-flex: 1;
+                  -ms-flex: 1;
+                  flex: 1;
+                  border-radius: 0.5rem;
+                  border: 1px solid #e1e1e1; }
+                  .modal-comment .container__comment .module__content .cm__reply .form__group .from .cm__textarea {
+                    max-width: -webkit-calc(100% - 3rem);
+                    max-width: -moz-calc(100% - 3rem);
+                    max-width: calc(100% - 3rem);
+                    width: 100%;
+                    border: 0px;
+                    -webkit-box-flex: 1;
+                    -webkit-flex: 1;
+                    -moz-box-flex: 1;
+                    -ms-flex: 1;
+                    flex: 1;
+                    outline: none;
+                    padding-left: 1.5rem;
+                    height: 3.6rem;
+                    max-height: 100px; }
+
+@media (max-width: 575.98px) {
+  .modal-comment .container__comment {
+    padding: 1.5rem; }
+    .modal-comment .container__comment .module__content .group__cm .cm__box .cm__content {
+      padding-left: 1rem; } }
+
+      .modal-comment .container__comment .module__content .comment__response {
+        padding: 5px 0;
+      }
+ .modal-comment .container__comment .module__content .comment__response .cm__reply {
+    display: block;
+    margin-top: 0;
+    padding-left: 0;
+    
+  }
+
+  .modal-comment .container__comment .module__content .comment__response .cm__reply .form__group .from .cm__textarea {
+    padding-top: 8px;
+    resize: none;
+  }
+
+  .modal-comment .container__comment .module__content .comment__response .cm__reply .form__group .from .user-tag {
+    position: absolute;
+    top: 9px;
+    padding: 0 5px;
+    color: #5d8cc3;
+    font-size: 13px;
+}
+
+.modal-comment .container__comment .module__content .comment__response .cm__reply .form__group .from {
+    position: relative;
+}

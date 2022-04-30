@@ -1,0 +1,222 @@
+@media (min-width: 230px) {
+  .page__blog,
+  .detail__blog {
+    margin-top: 7rem;
+    padding-top: 3rem; }
+    .page__blog .blog__title,
+    .detail__blog .blog__title {
+      font-size: 2.5rem;
+      color: #0d0d0d;
+      font-weight: 700;
+      margin-bottom: 1.5rem; }
+    .page__blog .blog__list,
+    .detail__blog .blog__list {
+      list-style-type: none;
+      padding: 0;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin-bottom: 1.5rem; }
+      .page__blog .blog__list .blog__list-item,
+      .detail__blog .blog__list .blog__list-item {
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: #808080;
+        padding-right: 1.5rem;
+        text-transform: uppercase; }
+        .page__blog .blog__list .blog__list-item:hover, .page__blog .blog__list .blog__list-item.active,
+        .detail__blog .blog__list .blog__list-item:hover,
+        .detail__blog .blog__list .blog__list-item.active {
+          color: #262626; }
+    .page__blog .blog__group,
+    .detail__blog .blog__group {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      grid-gap: 0.5rem; }
+      .page__blog .blog__group .blog__group-item,
+      .detail__blog .blog__group .blog__group-item {
+        width: 100%; }
+        .page__blog .blog__group .blog__group-item:hover .blog__link::before,
+        .detail__blog .blog__group .blog__group-item:hover .blog__link::before {
+          opacity: 0;
+          -webkit-transition: all 0.3s;
+          -o-transition: all 0.3s;
+          -moz-transition: all 0.3s;
+          transition: all 0.3s; }
+        .page__blog .blog__group .blog__group-item:hover .blog__link .blog-box,
+        .detail__blog .blog__group .blog__group-item:hover .blog__link .blog-box {
+          text-shadow: 0 0 20px #000;
+          -webkit-transition: all 0.3s;
+          -o-transition: all 0.3s;
+          -moz-transition: all 0.3s;
+          transition: all 0.3s; }
+        .page__blog .blog__group .blog__group-item .blog__link,
+        .detail__blog .blog__group .blog__group-item .blog__link {
+          display: block;
+          position: relative;
+          padding-top: 50%;
+          color: #fff; }
+          .page__blog .blog__group .blog__group-item .blog__link::before,
+          .detail__blog .blog__group .blog__group-item .blog__link::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            -webkit-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            transition: all 0.3s;
+            background-color: rgba(0, 0, 0, 0.4);
+            z-index: 1; }
+          .page__blog .blog__group .blog__group-item .blog__link .blog-avatar,
+          .detail__blog .blog__group .blog__group-item .blog__link .blog-avatar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            -o-object-fit: cover;
+            object-fit: cover;
+            width: 100%;
+            height: 100%; }
+          .page__blog .blog__group .blog__group-item .blog__link .blog-box,
+          .detail__blog .blog__group .blog__group-item .blog__link .blog-box {
+            position: absolute;
+            bottom: 25px;
+            left: 25px;
+            -webkit-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            transition: all 0.3s;
+            z-index: 2; }
+            .page__blog .blog__group .blog__group-item .blog__link .blog-box .blog-time,
+            .detail__blog .blog__group .blog__group-item .blog__link .blog-box .blog-time {
+              font-family: "googleSans-Regular";
+              font-size: 1.5rem; }
+            .page__blog .blog__group .blog__group-item .blog__link .blog-box .title,
+            .detail__blog .blog__group .blog__group-item .blog__link .blog-box .title {
+              font-size: 1.9rem;
+              font-family: "googleSans-Bold"; }
+  .detail__blog {
+    padding-bottom: 3rem; }
+    .detail__blog img {
+      width: 100%; }
+    .detail__blog .container__content .detail__title {
+      font-size: 2.5rem;
+      line-height: 3.6rem;
+      color: #0d0d0d;
+      font-family: "googleSans-Bold";
+      margin-bottom: 3rem; }
+    .detail__blog .container__content .detail__time {
+      font-size: 1.4rem;
+      color: #8c8c8c;
+      font-family: "googleSans-Bold"; }
+    .detail__blog .container__content .desc__global {
+      font-family: "googleSans-Regular";
+      margin: 3rem 0 2rem; }
+    .detail__blog .container__content .blog__news-title {
+      font-size: 2.5rem;
+      line-height: 3rem;
+      color: #0d0d0d;
+      font-weight: 700;
+      margin-bottom: 2rem; }
+    .detail__blog .blog__group {
+      grid-gap: 0; }
+      .detail__blog .blog__group .blog__group-item .blog__link::before {
+        background-color: rgba(0, 0, 0, 0.5); }
+      .detail__blog .blog__group .blog__group-item .blog__link .blog-box {
+        left: 20px; }
+        .detail__blog .blog__group .blog__group-item .blog__link .blog-box .blog-time {
+          color: #d9d9d9; } }
+
+@media (min-width: 768px) {
+  .page__blog .blog__group .blog__group-item,
+  .detail__blog .blog__group .blog__group-item {
+    width: -webkit-calc(50% - 2.5px);
+    width: -moz-calc(50% - 2.5px);
+    width: calc(50% - 2.5px); }
+    .page__blog .blog__group .blog__group-item .blog__link .blog-avatar,
+    .detail__blog .blog__group .blog__group-item .blog__link .blog-avatar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      -o-object-fit: cover;
+      object-fit: cover;
+      width: 100%;
+      height: 100%; }
+  .detail__blog .blog__group .blog__group-item {
+    width: 50%; } }
+
+@media (min-width: 992px) {
+  .page__blog,
+  .detail__blog {
+    margin-top: 10rem;
+    padding-top: 5rem; }
+    .page__blog .blog__title,
+    .detail__blog .blog__title {
+      font-size: 3.6rem;
+      margin-bottom: 3rem; }
+    .page__blog .blog__list,
+    .detail__blog .blog__list {
+      margin-bottom: 5rem; }
+      .page__blog .blog__list .blog__list-item,
+      .detail__blog .blog__list .blog__list-item {
+        padding-right: 4rem; }
+  .detail__blog {
+    padding-bottom: 5rem; }
+    .detail__blog .container__content .detail__title {
+      font-size: 3.6rem; }
+    .detail__blog .container__content .desc__global {
+      margin: 5rem 0; }
+    .detail__blog .container__content .blog__news-title {
+      font-size: 3rem; } }
+
+@media (min-width: 1200px) {
+  .page__blog,
+  .detail__blog {
+    margin-top: 10rem;
+    padding-top: 20rem;
+    padding-bottom: 0; }
+    .page__blog .blog__group .blog__group-item,
+    .detail__blog .blog__group .blog__group-item {
+      width: -webkit-calc(100% / 3 - 3.33px);
+      width: -moz-calc(100% / 3 - 3.33px);
+      width: calc(100% / 3 - 3.33px); }
+      .page__blog .blog__group .blog__group-item .blog__link,
+      .detail__blog .blog__group .blog__group-item .blog__link {
+        padding-top: 75%; }
+  .detail__blog {
+    padding-bottom: 14rem; }
+    .detail__blog .blog__group {
+      max-width: 1404px;
+      margin: 0 auto; }
+      .detail__blog .blog__group .blog__group-item {
+        width: 25%; }
+    .detail__blog .container__content .detail__title {
+      margin-bottom: 6rem; }
+    .detail__blog .container__content .desc__global {
+      margin: 8rem 0; }
+    .detail__blog .container__content .blog__news-title {
+      margin-bottom: 5rem; } }
+
+@media (min-width: 1400px) {
+  .page__blog .blog__group .blog__group-item .blog__link,
+  .detail__blog .blog__group .blog__group-item .blog__link {
+    padding-top: 72.148%; } }

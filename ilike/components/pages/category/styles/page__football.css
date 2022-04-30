@@ -1,0 +1,333 @@
+.color__blue {
+  border: 1px solid #7da7d9 !important;
+  background-color: #7da7d9; }
+
+.color__green {
+  border: 1px solid #82ca9c !important;
+  background-color: #82ca9c; }
+
+.color__yellow {
+  border: 1px solid #fdc689 !important;
+  background-color: #fdc689; }
+
+.color__pink {
+  border: 1px solid #f5989d !important;
+  background-color: #f5989d; }
+
+.color__gray {
+  border: 1px solid #d9d9d9 !important;
+  background-color: #d9d9d9; }
+
+.color__purple {
+  border: 1px solid #bd8cbf !important;
+  background-color: #bd8cbf; }
+
+.color__white {
+  border: 1px solid #e1e1e1 !important;
+  background-color: #fff; }
+
+.page-football {
+  padding-top: 5rem;
+  padding-bottom: 5rem; }
+  .page-football .football {
+    max-width: 809px;
+    width: 100%; }
+  .page-football .module__header {
+    margin-bottom: 3rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    grid-gap: 1rem; }
+    .page-football .module__header .title__football {
+      font-size: 2.4rem;
+      line-height: 2rem;
+      color: #252525;
+      font-weight: 400;
+      margin-bottom: 0; }
+    .page-football .module__header .select__nh {
+      margin-left: auto;
+      margin-right: 2rem; }
+      .page-football .module__header .select__nh ~ select {
+        margin-left: unset; }
+    .page-football .module__header select {
+      padding: 0 1.5rem;
+      height: 4rem;
+      border: 1px solid #d7d7d7;
+      outline: none;
+      cursor: pointer;
+      font-size: 1.5rem;
+      line-height: 2rem;
+      color: #252525;
+      font-weight: 400;
+      font-family: "Roboto";
+      margin-left: auto; }
+  .page-football .module__content .card {
+    border: 1px solid #ebebeb; }
+    .page-football .module__content .card .card-header {
+      padding: 1.8rem;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -moz-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      background-color: #f8f8f8;
+      font-size: 1.5rem;
+      color: #262626;
+      font-family: "Roboto"; }
+      .page-football .module__content .card .card-header .card-title {
+        font-weight: 500;
+        margin-bottom: 0; }
+      .page-football .module__content .card .card-header select {
+        cursor: pointer;
+        outline: none;
+        border: 0;
+        background-color: transparent; }
+    .page-football .module__content .card .card-body .table {
+      margin-bottom: 0;
+      font-family: "Roboto";
+      color: #595959; }
+      .page-football .module__content .card .card-body .table td,
+      .page-football .module__content .card .card-body .table th {
+        padding: 1rem;
+        border-top: 0;
+        vertical-align: inherit; }
+      .page-football .module__content .card .card-body .table thead tr th {
+        border-bottom: 0;
+        font-size: 13px;
+        line-height: 20px;
+        text-transform: uppercase;
+        font-weight: 700; }
+      .page-football .module__content .card .card-body .table tbody tr:nth-child(even) {
+        background-color: #f8f8f8; }
+      .page-football .module__content .card .card-body .table tbody tr.bg__blue td:first-child::before {
+        background-color: #7da7d9; }
+      .page-football .module__content .card .card-body .table tbody tr.bg__light--green td:first-child::before {
+        background-color: #82ca9c; }
+      .page-football .module__content .card .card-body .table tbody tr.bg__yellow td:first-child::before {
+        background-color: #e7a527; }
+      .page-football .module__content .card .card-body .table tbody tr.bg__light--pink td:first-child::before {
+        background-color: #f5989d; }
+      .page-football .module__content .card .card-body .table tbody tr.bg__light--purple td:first-child::before {
+        background-color: #bd8cbf; }
+      .page-football .module__content .card .card-body .table tbody tr td {
+        position: relative; }
+        .page-football .module__content .card .card-body .table tbody tr td:first-child::before {
+          position: absolute;
+          content: "";
+          top: 0;
+          left: 0;
+          height: 100%;
+          width: 0.3rem; }
+        .page-football .module__content .card .card-body .table tbody tr td .clb {
+          display: -webkit-inline-box;
+          display: -webkit-inline-flex;
+          display: -moz-inline-box;
+          display: -ms-inline-flexbox;
+          display: inline-flex;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+          -moz-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+          -webkit-box-pack: start;
+          -webkit-justify-content: flex-start;
+          -moz-box-pack: start;
+          -ms-flex-pack: start;
+          justify-content: flex-start;
+          margin-left: 0; }
+          .page-football .module__content .card .card-body .table tbody tr td .clb img {
+            max-width: 2rem;
+            width: 100%;
+            -o-object-fit: contain;
+            object-fit: contain;
+            height: 2rem;
+            margin-left: auto;
+            margin-right: unset; }
+          .page-football .module__content .card .card-body .table tbody tr td .clb span {
+            display: inline-block;
+            margin-left: 2rem; }
+        .page-football .module__content .card .card-body .table tbody tr td .group {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -moz-box;
+          display: -ms-flexbox;
+          display: flex;
+          grid-gap: 0.5rem; }
+          .page-football .module__content .card .card-body .table tbody tr td .group span {
+            display: -webkit-inline-box;
+            display: -webkit-inline-flex;
+            display: -moz-inline-box;
+            display: -ms-inline-flexbox;
+            display: inline-flex;
+            width: 1.8rem;
+            height: 1.8rem;
+            border: 3px solid #e3e3e3;
+            border-radius: 50%; }
+  .page-football .module__content .card-not {
+    font-family: "Roboto", sans-serif;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (auto)[3];
+    grid-template-columns: repeat(3, auto);
+    background-color: #f8f8f8;
+    margin-top: 4.5rem;
+    border: 1px solid #ebebeb;
+    padding: 2rem; }
+    .page-football .module__content .card-not .not__text {
+      font-size: 1.3rem;
+      color: #595959;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -moz-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+      .page-football .module__content .card-not .not__text span:first-child {
+        width: 1rem;
+        height: 1rem;
+        display: -webkit-inline-box;
+        display: -webkit-inline-flex;
+        display: -moz-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        margin-right: 1.2rem; }
+  .page-football .module__content .calendar {
+    font-size: 1.5rem;
+    color: #262626;
+    font-family: "Roboto";
+    font-weight: 400;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2.8rem; }
+    .page-football .module__content .calendar .calendar__item {
+      padding: 1.7rem;
+      border: 1px solid #ebebeb;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -moz-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .page-football .module__content .calendar .calendar__item .calendar__content {
+        max-width: -webkit-calc(100% - 90px);
+        max-width: -moz-calc(100% - 90px);
+        max-width: calc(100% - 90px);
+        width: 100%;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        -moz-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        border-right: 1px solid #ebebeb;
+        padding-right: 1.7rem; }
+        .page-football .module__content .calendar .calendar__item .calendar__content .calendar__team {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -moz-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+          -moz-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+          .page-football .module__content .calendar .calendar__item .calendar__content .calendar__team + .calendar__team {
+            margin-top: 2.3rem; }
+          .page-football .module__content .calendar .calendar__item .calendar__content .calendar__team img {
+            width: 2rem;
+            height: 2rem;
+            -o-object-fit: contain;
+            object-fit: contain;
+            margin-left: 0;
+            margin-right: unset; }
+          .page-football .module__content .calendar .calendar__item .calendar__content .calendar__team .calendar__name {
+            display: -webkit-inline-box;
+            display: -webkit-inline-flex;
+            display: -moz-inline-box;
+            display: -ms-inline-flexbox;
+            display: inline-flex;
+            margin-left: 1.5rem; }
+          .page-football .module__content .calendar .calendar__item .calendar__content .calendar__team .calendar__number {
+            margin-left: auto; }
+      .page-football .module__content .calendar .calendar__item .calendar__time {
+        text-align: center;
+        max-width: 90px;
+        width: 100%;
+        -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+        flex-shrink: 0; }
+
+@media (max-width: 767.98px) {
+  .page-football .module__content .card .card-header {
+    grid-gap: 1rem; }
+  .page-football .module__content .card .card-body {
+    overflow-x: auto; }
+    .page-football .module__content .card .card-body .table {
+      width: 736px; }
+  .page-football .module__content .card-not {
+    -ms-grid-columns: (auto)[2];
+    grid-template-columns: repeat(2, auto); }
+    .page-football .module__content .card-not .card-item:last-child {
+      -ms-grid-row: 1;
+      -ms-grid-row-span: 1;
+      grid-row: 1 / 2;
+      -ms-grid-column: 2;
+      -ms-grid-column-span: 1;
+      grid-column: 2 / 3; } }
+
+@media (max-width: 600.98px) {
+  .page-football .module__content .calendar {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[1];
+    grid-template-columns: repeat(1, 1fr); } }

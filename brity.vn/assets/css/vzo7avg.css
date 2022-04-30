@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'GothamBook';
+    src: url('../fonts/Gotham-Book.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFUIDisplay';
+    src: url('../fonts/SF-UI-Display-Regular.otf') format("opentype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MontSerratSemi';
+    src: url('../fonts/MontSerrat-SemiBold.woff2') format("woff2");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MontSerratSemi';
+    src: url('../fonts/MontSerrat-SemiBold-Latin.woff2') format("woff2");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}

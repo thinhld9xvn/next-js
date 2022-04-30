@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Fraunces';
+    src: url('/static/fonts/Frauces-Light.woff2') format("woff2");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Fraunces';
+    src: url('/static/fonts/Frauces-Regular.woff2') format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Fraunces';
+    src: url('/static/fonts/Frauces-Bold.woff2') format("woff2");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Lora';
+    src: url('/static/fonts/LoraRegular.ttf') format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Lora';
+    src: url('/static/fonts/LoraBold.ttf') format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('/static/fonts/RobotoRegular.ttf') format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('/static/fonts/RobotoBold.ttf') format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('/static/fonts/IBMPlexSans-Regular.ttf') format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}

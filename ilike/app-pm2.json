@@ -1,0 +1,9 @@
+{
+    "apps": [
+      {
+        "name": "ilikeclientnextjs",
+        "script": "npm",
+        "args": "start"
+      }
+    ]
+  }

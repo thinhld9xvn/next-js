@@ -1,0 +1,44 @@
+{
+  "name": "gco",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.4.1",
+    "axios": "^0.22.0",
+    "fs-extra": "^10.0.0",
+    "javascript-time-ago": "^2.3.8",
+    "mmenu-js": "^8.5.24",
+    "next": "^11.1.0",
+    "next-auth": "^4.0.5",
+    "next-compose-plugins": "^2.2.1",
+    "next-plugin-preact": "^3.0.6",
+    "next-pwa": "^3.1.0",
+    "next-redux-wrapper": "^7.0.2",
+    "nprogress": "^0.2.0",
+    "preact": "^10.5.2",
+    "preact-render-to-string": "^5.1.19",
+    "react": "npm:@preact/compat@^17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "npm:@preact/compat@^17.0.2",
+    "react-facebook": "^8.1.4",
+    "react-helmet": "^6.1.0",
+    "react-redux": "^7.2.4",
+    "react-responsive-modal": "^6.1.0",
+    "react-spinners": "^0.11.0",
+    "react-ssr-prepass": "npm:preact-ssr-prepass@^1.2.0",
+    "redux": "^4.1.1",
+    "redux-thunk": "^2.3.0",
+    "sharp": "^0.28.3",
+    "toastr": "^2.1.4"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.0.1"
+  }
+}

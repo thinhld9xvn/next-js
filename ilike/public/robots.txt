@@ -1,0 +1,8 @@
+User-agent: Googlebot
+Disallow: /account/
+Disallow: /account/*
+
+User-agent: *
+Allow: /
+
+Sitemap: https://ilike.com.vn/sitemap.xml

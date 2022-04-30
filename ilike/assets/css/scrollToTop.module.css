@@ -1,0 +1,38 @@
+.scrollToTop {
+    position: fixed;
+    right: 30px;
+    bottom: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+    border: 2px solid #ccc;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    opacity: 0;
+    z-index: 100;
+}
+
+.scrollToTop:after {
+    font-family: "FontAwesome";
+    content: "\f106";
+    font-size: 20px;
+    color: #ccc;
+}
+
+.scrollToTop:hover {
+    background-color: #fff;
+    color: #aaa;
+    border-color: #aaa;
+}
+
+.scrollToTop:hover:after {
+    color: #aaa;    
+}
+
+.scrollToTop__show {
+    opacity: 1;
+}

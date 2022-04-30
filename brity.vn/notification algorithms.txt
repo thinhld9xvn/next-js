@@ -1,0 +1,13 @@
+- Wordpress:
+    - Bẫy hook save_post :
+        + lấy thời gian hiện tại
+        + mã hóa thành base64
+        + Lưu chuỗi này vào db và có thể truy xuất bằng graphql        
+- Frontend:
+    - Mỗi khi mở web:
+        + get chuỗi thời gian đã mã hóa ở db về
+        + Kiểm tra với chuỗi đã lưu ở localStorage :
+            + Giống nhau => ko làm gì cả
+            + Khác nhau => 
+                + show notification thông báo có bài viết mới
+                + Lưu chuỗi vào localStorage cho lần kiểm tra sau       
